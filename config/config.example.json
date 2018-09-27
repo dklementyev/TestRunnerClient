@@ -1,0 +1,5 @@
+{
+  "host" : "host as http:\\yourhost",
+  "user" : "user_email",
+  "password" : "user_password"
+}

@@ -1,0 +1,11 @@
+plt.png
+output.json
+__pycache__/testrail.cpython-36.pyc
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/TestRunnerClient.iml
+index.html
+__pycache__/
+config/config.json
