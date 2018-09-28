@@ -3,6 +3,7 @@ import json
 import matplotlib.pyplot as plt
 import time
 import jsonLoader
+import os
 
 config = jsonLoader.load_json("config\\config.json")
 client = APIClient(config["host"])
@@ -84,7 +85,8 @@ template = """
     </body>
     </html>
     """.format('Estore', body)
-
+if not os.path.exists('htmlReport'):
+    os.mkdir('htmlReport')
 htmlFile = open('htmlReport/index.html', 'w')
 htmlFile.write(template)
 htmlFile.close()
